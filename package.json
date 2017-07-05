@@ -1,0 +1,16 @@
+{
+    "name": "bitcoin",
+    "version": "1.0.0",
+    "description": "Bitcoin bot",
+    "main": "./node_modules/gupshup-botrunner/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./node_modules/gupshup-botrunner/index.js"
+    },
+    "author": "Bhargav Kolla <botsbybhargav@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "bot-script": "*",
+        "gupshup-botrunner": "*"
+    }
+}
